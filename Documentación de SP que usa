@@ -1,0 +1,14 @@
+Se usan los SPs para extraer la información:
+
+dbo.cashflow_caja_consulta
+dbo.cashflow_cheques_propios_lista
+dbo.cashflow_terce_consul
+dbo.cashflow_cheques_validacion
+dbo.cashflow_fondofijo_consulta
+dbo.cashflow_proveedor_consulta
+
+Y se los unifica en el SP dbo.cashflow
+
+
+Para realizar la modificación de fecha de factura de proveedor se usa: 
+cashflow_proveedor_update
